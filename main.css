@@ -6,12 +6,12 @@
 
 /* Navbar */
 .navbar{
-    height:100px;
+    height:50px;
     background-color:#1a8fe3;
    padding-right:15px;
 }
 .right-nav .right{
-    padding-top:20px;
+    padding-top:15px;
     float:right;
     display: flex;
     justify-content:space-around;
@@ -21,7 +21,7 @@
 }
 .right-nav li{
     color:white;
-    font-size: 2.5rem;
+    font-size: 1.1rem;
     margin-left:30px;
 }
 .right-nav {
@@ -29,9 +29,9 @@
     padding-left:10px;
 }
 .fa-phone{
-    padding-top:20px;
+    padding-top:15px;
     color:white;
-    font-size:2.5rem;
+    font-size:1.1rem;
 }
 /* page navbar */
 .nav{
@@ -40,8 +40,7 @@
     height:150px;
 }
 img{
-    width:650px;
-    height:100px;
+    width:250px;
 }
 .nav-item{
     float: right;
@@ -49,8 +48,7 @@ img{
     padding-bottom:20px;
 }
 select{
-    padding:15px;
-    font-size:2.5rem;
+    font-size:0.85rem;
     outline:none;
     border-radius:10px;
     outline:none;
@@ -76,7 +74,7 @@ select{
 }
 .top-left {
     position: absolute;
-    top: 70%;
+    top: 50%;
     left:6%;
   }
   .top-left .off{
@@ -85,15 +83,16 @@ select{
       font-family: 'Source Code Pro', monospace;
   }
   .top-left .off2{
-    font-size:2rem;
+    font-size:1.2rem;
     color:white;
     font-family: 'Source Code Pro', monospace;
 }
-  .top-left .men{
-      font-size:6rem;
+   .top-left .men{
+      font-size:3rem;
       font-weight:bold;
       font-family: 'Source Code Pro', monospace;
   }
+  /*
   .top-left button{
       padding:3px 10px 3px 10px;
       font-size:1.8rem;
@@ -101,8 +100,15 @@ select{
       font-family: 'Source Code Pro', monospace;
       color:white;
       outline:none;
-  }
+  } */
+
+
+
+
  /* our office */
+
+
+
 .office-map iframe{
     width:100%;
     height:100%;
@@ -114,32 +120,32 @@ select{
     margin-top:100px;
 }
 .forminfo{
-    font-size:1.8rem;
+    font-size:1.3rem;
     font-family: 'Source Code Pro', monospace;
     color:#1a8fe3;
     font-weight:bold;
 }
 .formName{
-   font-size:4rem;
+   font-size:2rem;
 }
 .long-text{
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: 'Source Code Pro', monospace;
     font-weight:bold;
 }
 .office-map-form input{
     margin-top:20px;
     width:100%;
-    height:100px;
-    font-size:2rem;
+    height:40px;
+    font-size:1.2rem;
     font-family: 'Source Code Pro', monospace;
     outline:none;
 }
 .office-map-form textarea{
 margin-top:20px;
 width:100%;
-height:500px;
-font-size:2rem;
+height:130px;
+font-size:1.2rem;
 font-family: 'Source Code Pro', monospace;
 outline:none;
 }
@@ -147,7 +153,7 @@ outline:none;
     margin-top:20px;
     width:60%;
     height:80px;
-    font-size:1.8rem;
+    font-size:1.2rem;
     font-family: 'Source Code Pro', monospace;
     background-color:#1a8fe3;
     color:white;
@@ -155,7 +161,7 @@ outline:none;
 }
 .office-map-form .line{
     width:200px;
-    height:20px;
+    height:10px;
     background-color:#1a8fe3;
 }
 
@@ -165,17 +171,17 @@ outline:none;
     background-color:#edf2fb;
 }
 .head-text{
-    font-size:2.5rem;
+    font-size:1,5rem;
     color:black;
     font-weight:bold;
     font-family: 'Source Code Pro', monospace;
 } 
 .contact-cards i{
-    font-size:4rem;
+    font-size:1.5rem;
     color:#1a8fe3;
 }
 .contact-cards .text{
-    font-size:2rem;
+    font-size:1.2rem;
     font-family: 'Source Code Pro', monospace;
 }
 .contact-cards{
@@ -203,8 +209,8 @@ footer {
     border-radius: 50%;
     color: white;
     cursor: pointer;
-    font-size: 80px;
-    line-height: 150px;
-    width: 140px;
-    margin-top:30px;
+    font-size: 30px;
+    line-height: 60px;
+    width: 80px;
+    margin-top:10px;
   }
